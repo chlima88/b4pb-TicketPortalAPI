@@ -30,6 +30,7 @@ class Asset(BaseModel):
     ram: int
     ram: int
     storage: int
+    hostname: str
     userId: int = None
     lastStartup: ValidDateTime
     lastSync: ValidDateTime = ""
