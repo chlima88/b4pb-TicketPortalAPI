@@ -15,10 +15,11 @@ class Repository(IRepository):
         return self.__lastId
 
     def save(self, item: T) -> T:
-        item.id = self.__lastId
-        self.__db.append(item)
+        user = {**item.model_dump()}
+        user["id"] = self.__lastId
+        self.__db.append(user)
         self.__lastId += 1
-        return item
+        return user
 
     def delete(self, item: T) -> None:
         raise NotImplementedError
@@ -32,10 +33,9 @@ class Repository(IRepository):
 
     def findById(self, id: int) -> T:
         for item in self.__db:
-            if item.id == id:
+            if item["id"] == id:
                 return item
-
-        raise Exception("ID não encontrado")
+        raise Exception("ID not found")
 
     def existsById(self, id: int) -> bool:
         for item in self.__db:

@@ -1,6 +1,6 @@
-from typing import Annotated, Optional
+from typing import Annotated, Optional, Union
 
-from pydantic import AfterValidator, BaseModel, BeforeValidator
+from pydantic import AfterValidator, BaseModel, BeforeValidator, ConfigDict, Field
 
 
 def isPositive(num: int):
@@ -12,11 +12,12 @@ ValidId = Annotated[int, BeforeValidator(isPositive)]
 
 
 class UserDTO(BaseModel):
-    id: Optional[int] = None
     name: str
     role: str
     email: str
-    departmentId: int
+    departmentId: int = 0
+
+    model_config = ConfigDict(str_min_length=1, str_strip_whitespace=True)
 
 
 class User(UserDTO):
