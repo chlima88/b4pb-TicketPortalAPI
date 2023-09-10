@@ -1,3 +1,4 @@
+import os
 from typing import Iterable
 from fastapi import APIRouter, HTTPException
 
@@ -10,7 +11,7 @@ from dataloaders.dataloader import DataLoader
 userController = APIRouter(prefix="/users")
 userRepository = Repository()
 userService = Service[User](userRepository)
-DataLoader.load(UserDTO, userRepository, "./dataloaders/data/Users.csv")
+DataLoader.load(UserDTO, userRepository, "Users.csv")
 
 
 @userController.post("/", status_code=201)
