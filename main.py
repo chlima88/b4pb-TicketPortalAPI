@@ -1,10 +1,4 @@
-from fastapi import FastAPI
+import uvicorn
 
-from controllers.user_controller import userController
-from controllers.department_controller import departmentController
-from controllers.ticket_controller import ticketController
-
-app = FastAPI()
-app.include_router(userController)
-app.include_router(departmentController)
-app.include_router(ticketController)
+if __name__ == "__main__":
+    uvicorn.run("app:api", port=3000, reload=True)

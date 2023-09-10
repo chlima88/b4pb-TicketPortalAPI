@@ -1,8 +1,8 @@
 import json
 from fastapi.testclient import TestClient
-from main import app
+from app import api
 
-client = TestClient(app)
+client = TestClient(api)
 
 
 class TestUserController:
