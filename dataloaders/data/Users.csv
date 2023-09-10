@@ -1,0 +1,14 @@
+id,name,role,email,isActive,departmentId
+6,Charles Costa,Cyber Secutiry Specialist,charles.costa@ecompany.com,1,10
+2,Lucas Santos,Support Analyst,lucas.santos@ecompany.com,1,10
+3,Aline Mota,SRE Specialist,aline.mota@ecompany.com,1,10
+4,Luiz Silva,IT Coordinator,luiz.silva@ecompany.com,1,10
+5,Victoria Lima,Cyber Secutiry Analyst,victoria.lima@ecompany.com,1,10
+8,Elisa Mota,Financial analyst,elisa.mota@ecompany.com,1,20
+7,Ricardo Mendes,Account manager,ricardo.mendes@ecompany.com,0,20
+1,Erick Lemos,CTO,erick.lemos@ecompany.com,1,10
+9,Fabio Costa,Talent acquisition,fabio.costa@ecompany.com,1,15
+10,Luana Moraes,HR Coordinator,luana.moraes@ecompany.com,1,15
+11,Helen Ferreira,CFO,helen.ferreira@ecompany.com,1,20
+13,Patricia Cardoso,CEO,patricia.cardoso@ecompany.com,1,1
+14,Andre Gonzaga,GRC Manager,andre.gonzaga@ecompany.com,1,35

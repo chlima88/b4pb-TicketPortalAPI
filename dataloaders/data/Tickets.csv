@@ -1,0 +1,11 @@
+id,title,description,statusId,priorityId,createdAt,closedAt,assetId,requesterId,attendantId
+50100,Hardware not working,A impressora está ligando mas não imprime,1,3,06/06/2023 10:15:00,0,202310010,10,0
+50101,Blocked site,"O site do TJRJ está bloqueado, solicito acesso",4,3,07/06/2023 09:30:00,07/06/2023 10:00:00,0,9,5
+50102,Blocked site,O Onedrive está bloquado,4,3,08/06/2023 10:45:00,08/06/2023 11:30:00,20221005,3,5
+50103,Software installation,Solicito a instalação do Office,2,4,09/06/2023 15:00:00,0,0,9,3
+50104,Hardware request,Solicito a disponibilização de um notebook Dell para o novo colaborador Lucas Santos,2,4,10/06/2023 16:30:00,0,20231003,4,3
+50105,Access Request,Solicito acesso as ferramentas de IT para o novo colaborador Lucas Santos,4,4,10/06/2023 16:00:00,10/06/2023 17:00:00,0,4,3
+50106,User creation,Solicito a criação de um usuário para o novo colaborador Lucas Santos,4,4,10/06/2023 15:50:00,10/06/2023 16:30:00,0,4,3
+50107,User locked,"Quando tento acessar a nossa plataforma recebo a mensagem 'Usuário Bloqueado'",1,4,13/06/2023 17:00:00,0,0,8,0
+50108,VPN access request,Solicito a liberação de VPN para o colaborador Fabio Costa ,3,4,14/06/2023 11:00:00,0,0,10,4
+50109,Security Incident,Spear phishing targeting company CTO,3,1,20/06/2023 09:40:00,0,0,5,6

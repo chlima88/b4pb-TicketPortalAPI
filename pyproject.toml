@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tp9"
+version = "0.1.0"
+description = ""
+authors = ["Charles Costa <chlima88@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.103.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.2"
+httpx = "^0.24.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
