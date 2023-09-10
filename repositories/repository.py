@@ -6,9 +6,9 @@ T = TypeVar("T")
 
 
 class Repository(IRepository):
-    def __init__(self):
+    def __init__(self, idSeed: int = 1):
         self.__db: Iterable[T] = []
-        self.__lastId = 1
+        self.__lastId = idSeed
 
     @property
     def lastId(self):
