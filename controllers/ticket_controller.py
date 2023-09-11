@@ -1,4 +1,3 @@
-import os
 from typing import Iterable
 from fastapi import APIRouter, HTTPException
 
@@ -8,7 +7,7 @@ from repositories.repository import Repository
 from dataloaders.dataloader import DataLoader
 
 
-ticketController = APIRouter(prefix="/tickets")
+ticketController = APIRouter(prefix="/tickets", tags=["tickets"])
 ticketRepository = Repository(idSeed=50100)
 ticketService = Service[Ticket](ticketRepository)
 DataLoader.load(Ticket, ticketRepository, "Tickets.csv")

@@ -8,7 +8,7 @@ from repositories.repository import Repository
 from dataloaders.dataloader import DataLoader
 
 
-assetController = APIRouter(prefix="/assets")
+assetController = APIRouter(prefix="/assets", tags=["assets"])
 assetRepository = Repository()
 assetService = Service[Asset](assetRepository)
 DataLoader.load(Asset, assetRepository, "Assets.csv")
