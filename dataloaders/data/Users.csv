@@ -1,9 +1,9 @@
 id,name,role,email,isActive,departmentId
-1,Charles Costa,Cyber Secutiry Specialist,charles.costa@ecompany.com,1,6
+1,Charles Costa,Cyber Security Specialist,charles.costa@ecompany.com,1,6
 2,Lucas Santos,Support Analyst,lucas.santos@ecompany.com,1,2
 3,Aline Mota,SRE Specialist,aline.mota@ecompany.com,1,2
 4,Luiz Silva,CTO,luiz.silva@ecompany.com,1,2
-5,Victoria Lima,Cyber Secutiry Analyst,victoria.lima@ecompany.com,1,6
+5,Victoria Lima,Cyber Security Analyst,victoria.lima@ecompany.com,1,6
 6,Elisa Mota,Financial analyst,elisa.mota@ecompany.com,1,4
 7,Ricardo Mendes,Account manager,ricardo.mendes@ecompany.com,0,4
 8,Erick Lemos,CISO,erick.lemos@ecompany.com,1,6
